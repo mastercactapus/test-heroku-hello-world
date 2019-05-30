@@ -1,5 +1,6 @@
 {
   "name": "Heroku Hello World",
   "description": "A barebones Go app to test one click deploys with Heroku",
-  "repository": "https://git.target.com/NathanielCaza/heroku-hello-world"
+  "repository": "https://git.target.com/NathanielCaza/heroku-hello-world",
+  "postdeploy": "./scripts/post_deploy.sh"
 }
