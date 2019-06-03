@@ -2,5 +2,11 @@
   "name": "Heroku Hello World",
   "description": "A barebones Go app to test one click deploys with Heroku",
   "repository": "https://git.target.com/NathanielCaza/heroku-hello-world",
-  "postdeploy": "./scripts/post_deploy.sh"
+  "postdeploy": "./scripts/post_deploy.sh",
+  "env": {
+    "GOALERT_DB_URL": {
+      "description": "The database URL for GoAlert to run.",
+      "value": "postgres://localhost:5432/test_db?sslmode=disable"
+    }
+  }
 }
