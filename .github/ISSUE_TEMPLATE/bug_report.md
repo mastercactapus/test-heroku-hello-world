@@ -7,6 +7,11 @@ assignees: ''
 
 ---
 
+<!--
+Please search existing issues to avoid creating duplicates. 
+If the matter is security related, please send an email to support@goalert.me instead.
+-->
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
@@ -20,8 +25,14 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
+**Observed behavior**
+A clear and concise description of what you observed happen.
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
+
+**Application Version**
+Output of `goalert version` and/or version information from view-source on the UI.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
