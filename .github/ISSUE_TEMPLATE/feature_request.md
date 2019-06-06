@@ -7,6 +7,11 @@ assignees: ''
 
 ---
 
+<!--
+Before opening a feature request, search for similar or duplicates and vote/comment instead.
+This helps prioritize new features
+-->
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
